@@ -1,0 +1,58 @@
+# ============================================
+# Sabor Local / SLFood — .gitignore
+# ============================================
+
+# --- Variáveis de ambiente e credenciais ---
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+*-credentials.json
+config.local.json
+
+# --- Tokens e chaves de API ---
+*api_key*
+*apikey*
+*token*
+*.pem
+*.key
+
+# --- n8n (exports de fluxo podem conter credenciais) ---
+# Mantenha os JSONs em automacoes-n8n/fluxos-json/ SOMENTE
+# após revisão manual e remoção de credenciais/webhooks privados.
+*n8n-credentials*
+n8n_data/
+
+# --- Xano (caso baixe algum export de configuração) ---
+xano-export-secrets/
+
+# --- FlutterFlow / Flutter (caso adicione código exportado futuramente) ---
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.iml
+.idea/
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+*.swp
+*.swo
+
+# --- Arquivos temporários e backups ---
+*.tmp
+*.bak
+*.log
+~$*
+
+# --- Compactados não revisados ---
+*.zip
+*.rar
+*.7z
