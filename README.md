@@ -31,7 +31,7 @@ A solução foi pensada para devolver ao restaurante o controle sobre sua opera�
 
 O projeto contemplou todo o ciclo de desenvolvimento de produto: levantamento de requisitos, definição de regras de negócio, modelagem de dados, arquitetura de integrações, prototipação em Figma, desenvolvimento em FlutterFlow, backend em Xano e automações em n8n.
 
-**Minha responsabilidade no time** foi a estruturação do banco de dados relacional, a criação das APIs no Xano e a montagem da automação no n8n — a camada que conecta o app, o backend e o chatbot.
+**Minha responsabilidade no time** foi a estruturação do banco de dados relacional e a criação das APIs no Xano.
 
 ---
 
